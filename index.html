@@ -112,12 +112,14 @@ body {
 }
 
 .profilepic-container{
-  z-index: 1;
-  position: absolute;
-  left: 39%;
-
-  margin-top: 5%;
-
+/*   z-index: 1; */
+  position: relative;
+  left:10%;
+  width: 80%;
+  height: 35%;
+/*   left: 2%;
+ */
+  margin-top: 10%;
   text-align: center;
 
 }
@@ -126,13 +128,10 @@ body {
 
 
 .mid-text-container {
-/*  text-align: center;
-  margin: 0 auto;
   position: absolute;
-  display: block;
-  margin:auto;*/
-  position:absolute;
-  width: 50%;
+  /*display: block;*/
+  /*margin:;*/
+  width: 100%;
   height: 800px;
 
 }
@@ -140,7 +139,7 @@ body {
 .end {
   background-color: #1d0d02;
   width: 100%;
-  height: 300px;
+  height: 150px;
   float: left
 
 }
@@ -163,24 +162,46 @@ body {
   margin: 0 auto;
   position: absolute;
   display: block;
-  margin:auto;
-  margin-top: 20%;
-  margin-left: 10%;
+  margin-left: 5%;
+  padding: 20px;
   text-align: center;
+  width: 90%;
+
 }
 
 .description {
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 80%;
     transform: translate(-50%, -50%);
     font-size: 16px;
 }
 
-.irregshape {
-  width: 100%;
-  height: auto;
+.projectwrapper{
+  overflow-y: auto;
 }
+
+.project{
+  position: relative;
+}
+
+.projectimg{
+  position: relative;
+  height: 350px;
+  width: 40%;
+  padding: 20px;
+  float:left;
+  margin-left: 3%;
+}
+.projectdetail{
+  width: 45%;
+  float: right;
+  position: relative;
+  height: 350px;
+  margin-right: 3%;
+}
+
 /*
 .st-icon-linkedin {
   transform: scale(1.5);
@@ -352,174 +373,207 @@ body {
         </div>
     </div>
 
-<div class="parallax">
-
-
-<section id="top-page">
-<div class="top-container" style="height: 800px; text-align: center; ">
-  <div class="heading-container" style = "margin-left: auto; color: #000000; margin-top: 15%; position: absolute; width: 100%; " >
-    <!-- background-color: rgba(254, 250, 241, 0.5) -->
-      <div style="background-color: rgba(254, 250, 241, 0.5)">
-  	     <h1 style="font-size: 92px; font-family: Allura;">Eva Zhong</h1>
-      	  <div>
-          <a href="#aboutme" style="font-size: 24px; color: #000000; font-family: 'CinzelRegular'">About me | </a>
-
-          <a href="#projects" style="font-size: 24px; color: #000000; font-family: 'CinzelRegular'">Experiences | </a>
-
-          <a href="#contact" style="font-size: 24px; color: #000000; font-family: 'CinzelRegular'">Contact</a>
-          </div>
-      </div>
-  </div>
-</div>
-</section>
 
 
 
 <section id="aboutme">
-<div style="height:800px;font-size:24px;">
-        <div class="aboutme" style="height: 800px;">
-          <div style="width: 50%; height: 800px; float: right; background-color: rgb(173, 202, 157);">
-            <div class="profilepic-container"><img src="images/profile-circle2.png" style="width: 310px; height: 300px;"></div>
+<div class="block" style="height:800px; position:relative;">
 
-            <div class="heading2" style="text-align: center;" >
-              <h style="  font-family: 'Allura'; font-size: 80px;"> About Me </h>
-              <div>
-                <a href="#aboutme" style="font-size: 24px; color: #1d0d02; font-family: 'CinzelRegular'">About me | </a>
-
-                <a href="#projects" style="font-size: 24px; color: #1d0d02; font-family: 'CinzelRegular'">Experiences | </a>
-
-                <a href="#contact" style="font-size: 24px; color: #1d0d02; font-family: 'CinzelRegular'">Contact</a>
-              </div>
-            </div>
-
-          </div>
-
-          <div style="width: 50%; height: 800px; float: left; background-color: rgba(227, 247, 229, 0.5);"><!-- rgb(136, 185, 105) -->
-            <div class="mid-text-container">
-              <!-- <img class="irregshape" src="images/shape.png" style ="width: 100%; height: 800px;"> -->
-              <div class="description">
-                <p>Hi everyone! My name is Eva and I am a sophomore from Carleton College, studying Computer Science and Math. <br>
-                <br>
-                I have demonstrated experiences of <strong>peer leadership</strong> and the ability to work well in <strong>diverse environments</strong>.
-                <br>
-                <br>
-                Outside of computer science, I have been exposed to a libeal arts education at school and have taken many humanity courses through which I broadened my perspective and polished my writing skills.
-                <br>
-                <br>
-                Currently, I am working for <a href="https://girlswhocode.com/" style="color:#bf9976;"><strong>Girls Who Code</strong></a> as a teaching assistant in NYC in Pfizer.
-                <br>
-                <br>
-                The areas that I'm most excited about are <strong>computer graphics</strong> and <strong>data science</strong>, because they are fun and challenging!
-                <br>
-                <br>
-                I'm a self-starter and I'm driven by my curiosity, and I hope to learn as much as I can from each opportunity I get!
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-</div>
-</section>
-
-<section id="projects">
-<div style="height:800px;;font-size:24px;">
-
-	<div class="projects" style="height: 800px" >
-    <div style="width: 50%; height: 800px; float: right; background-color: #fcf8e3;"> <!-- rgba(250, 197, 117, 0.35) --> <!-- #fac575 -->
-            <div class="mid-text-container">
+	<div style="height: 800px" >
+    <div style="position: relative; width: 70%; height: 800px; float: right; background-color: #fcf8e3;"> <!-- rgba(250, 197, 117, 0.35) --> <!-- #fac575 -->
+            <div class="mid-text-container" style="position: absolute; ">
               <!-- <img class="irregshape" src="images/shape.png" style ="width: 100%; height: 800px; opacity: 0.8"> -->
               <div class="description">
+                <p>Hi, this is Eva! I am a sophomore, Computer Science major from Carleton College.
+                  I'm most excited about learning <strong>data engineering</strong> and <strong>data science</strong> beause they are <strong>fun</strong> and <strong>challenging</strong>!
+                <br>
+
+                <br>
+                I have also undertaken multiple <strong>peer leader</strong> roles both in and out of school, and have demonstrated experiences of working well in <strong>diverse environments</strong>.
+                <br>
+                <br>
+                I have worked for <a href="https://girlswhocode.com/" style="color:#bf9976;"><strong>Girls Who Code</strong></a> as a teaching assistant in NYC in Pfizer, and currently, I work on database for <a href="https://pencilsofpromise.org/"  style="color:#bf9976"><strong>Pencils of Promise</strong></a> in NYC.
+                <br>
+                <br>
+                I'm driven by my curiosity and I hope to learn as much as I can from each opportunity!
+                </p>
+
+                <br>
+                <br>
+                <br>
                 <p>
-                  I have been a <strong>peer leader, a mentor</strong>, and <strong>a teaching assistant</strong>.
-                    <br>
-                    <br>
-                    I have been involved in:
-                      <br> <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
-                      Web Development (Front-end in HTML, CSS and Javascript and backend with Django and Firebase)
-                      <br> <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
-                      Math Modeling and Statistical Analysis;
-                      <br> <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
-                      Game Development (Python, Java, JavaScript, 3D modeling in CityEngine)
-                      <br>
-                      <Br>
-                      I am comfortable with:
-                      <br>
-                      <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
-                      Java, Python, Django, HTML, CSS, Bootstrap, SQL and R(elementary)
-                      <br>
-                      <br>
-                      Check out my résumé below! <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                      <br>
-                      </br>
-                        <a href="resume/Eva-Zhong-Resume-9-5-update.pdf" class="btn btn-success btn-lg" style="background-color:#572619">
-                          <span class="glyphicon glyphicon-edit"></span> Résumé
-                        </a>
-                  </p>
 
-
-              </div>
-            </div>
-
-          </div>
-
-
-          <div style="width: 50%; height: 800px; float: left; background-color: rgb(253, 238, 173);">
-            <div class="heading2" style="text-align: center; ">
-              <h style="font-family: 'Allura'; font-size: 80px; ">Experiences</h>
-                      <div>
-                <a href="#aboutme" style="font-size: 24px; color: #1d0d02; font-family: 'CinzelRegular'">About me | </a>
-
-                <a href="#projects" style="font-size: 24px; color: #1d0d02; font-family: 'CinzelRegular'">Experiences | </a>
-
-                <a href="#contact" style="font-size: 24px; color: #1d0d02; font-family: 'CinzelRegular'">Contact</a>
-              </div>
-            </div>
-          </div>
-        </div>
-     </div>
-</section>
-
-<section id="contact">
-<div style="height:800px;font-size:24px;">
-
-        <div class="contact" style="height: 800px" >
-          <div style="width: 50%; height: 800px; float: right; background-color: rgb(255, 188, 155);">
-            <div class="heading2">
-              <h style="font-family: 'Allura'; font-size: 80px;">Contact Me</h>
-              <div>
-                <a href="#aboutme" style="font-size: 24px; color: #1d0d02; font-family: 'CinzelRegular'">About me | </a>
-
-                <a href="#projects" style="font-size: 24px; color: #1d0d02; font-family: 'CinzelRegular'">Experiences | </a>
-
-                <a href="#contact" style="font-size: 24px; color: #1d0d02; font-family: 'CinzelRegular'">Contact</a>
-              </div>
-            </div>
-          </div>
-
-          <div style="width: 50%; height: 800px; float: right; background-color: rgba(253, 236, 204, 0.28);"> <!-- rgba(243, 118, 44, 0.6) -->
-            <div class="mid-text-container">
-              <!-- <img class="irregshape" src="images/shape.png" style ="width: 100%; height: 800px;"> -->
-              <div class="description">
-                <p>
                   Feel free to email me <strong>@zhongyifan.eva@gmail.com  </strong><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-
-                  <br>
                   <br>
                   or find me on my Linkedin and Github!
                 </p>
-                  <div class=social-icons>
-                    <a href="https://www.linkedin.com/in/eva-zhong-0a5b4b128/")><img src="images/linkedin.png"</img></a>
-                    <a href="https://github.com/Eva-Zhong")>
-                      <img src="images/github2.png"></img>
-                    </a>
+
+                </p>
+                <div class=social-icons>
+                  <a href="https://www.linkedin.com/in/eva-zhong-0a5b4b128/")><img src="images/linkedin.png"</img></a>
+                  <a href="https://github.com/Eva-Zhong")>
+                    <img src="images/github2.png"></img>
+                  </a>
+                </div>
+              </div>
+
+
+            </div>
+            </div>
+
+
+          <div style="position: relative; width: 30%; height: 800px; float: left; background-color: rgb(253, 238, 173);">
+            <div class="profilepic-container">
+                      <img src="images/profile-circle2.png" style="width: 100%; height: 100%;">
                   </div>
+
+            <div class="heading2" style="position: absolute; text-align: center; ">
+
+              <h style="font-family: 'Allura'; font-size: 60px; margin-top: 10%;">About Me</h>
+              <div>
+                <a href="#aboutme" style="font-size: 16px; color: #1d0d02; font-family: 'CinzelRegular'">About me | </a>
+
+                <a href="#projects" style="font-size: 16px; color: #1d0d02; font-family: 'CinzelRegular'">Experiences </a>
+
+                <!-- <a href="#contact" style="font-size: 16px; color: #1d0d02; font-family: 'CinzelRegular'">Contact</a> -->
               </div>
             </div>
           </div>
+
+     </div>
+  </div>
+</section>
+
+
+<section id="projects">
+<div style="height:800px;font-size:24px;">
+        <div class="aboutme" style="height: 800px;">
+          <div style="position: relative; width: 30%; height: 800px; float: left; background-color: rgb(199, 218, 255);">
+<!--             <div class="profilepic-container"><img src="images/profile-circle2.png" style="width: 310px; height: 300px;"></div>
+ -->
+
+            <div class="heading2" style="text-align: center; margin-top: 300px;" >
+              <h style="  font-family: 'Allura'; font-size: 60px;">Experiences</h>
+              <div>
+                <a href="#aboutme" style="font-size: 16px; color: #1d0d02; font-family: 'CinzelRegular'">About me | </a>
+
+                <a href="#projects" style="font-size: 16px; color: #1d0d02; font-family: 'CinzelRegular'">Experiences </a>
+
+                <!-- <a href="#contact" style="font-size: 16px; color: #1d0d02; font-family: 'CinzelRegular'">Contact</a> -->
+              </div>
+            </div>
+
+          </div>
+
+          <div class="projectwrapper" style="position: relative; width: 70%; height: 800px; float: right; background-color: rgb(247, 251, 255);"><!-- rgb(136, 185, 105) -->
+
+
+            <div class="project" style="position: relative; height: 200px;">
+                <div class="projectimg" style="float: left; ">
+     <img src="images/othello.png" style="position: absolute; height:100%;width: 100%;">
+                  </div>
+                <div class="projectdetail" style="position: relative; float:right; width:45%;">
+                  <div style="margin-top: 20px;">
+
+                  <h style="font-family: 'CinzelRegular'; font-size: 32px;"><a href="https://github.com/Eva-Zhong/Othello-Game-Python" style="color: #1d0d02"><strong>Othello</strong></a></h>
+                  <p style="font-family: 'CinzelRegular'; font-size: 18px;">Python; Object Oriented Programming</p>
+                  <br>
+                  <p style="font-size: 16px;"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Developed the game Othello in Python with an AI.</p>
+                  <p style="font-size: 16px;"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Players can choose to play in three difficulty levels, or with another human.</p>
+                  <p style="font-size: 16px;"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> The program tracks the scores and determines the winner.</p>
+
+
+                </div>
+                </div>
+            </div>
+
+
+            <div class="project" style="position: relative; height: 200px;">
+                <div class="projectimg" style="position: relative; ">
+     <img src="images/2048-square-small.jpeg" style="position: absolute; height:100%; width: 100%; padding: 10px;">
+                  </div>
+                <div class="projectdetail" style="float:right; width:45%;">
+                  <div style="margin-top: 20px;">
+                    <h style="font-family: 'CinzelRegular'; font-size: 32px;"><a href="https://github.com/Eva-Zhong/2048-Java" style="color: #1d0d02"><strong>Revised 2048</strong></h></a>
+                    <p style="font-family: 'CinzelRegular'; font-size: 18px;">Java; JavaFX; Object Oriented Programming</p>
+                    <br>
+                    <p style="font-size: 16px;"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Implement the game 2048 in Java.</p>
+                    <p style="font-size: 16px;"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Added two additional levels to the game. </p>
+                    <p style="font-size: 16px;"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Currently, the board will rotate once the users reach a certain level.
+ </p>
+                  </div>
+                </div>
+            </div>
+
+
+           <div class="project">
+                <div class="projectimg" style="position: relative;">
+                   <img src="images/officehour.png" style="position: absolute; height: 100%; width: 100%; padding: 10px; ">
+                  </div>
+                <div class="projectdetail" style="float:right; width:45%;">
+                  <div style="margin-top: 20px;">
+                    <h style="font-family: 'CinzelRegular'; font-size: 32px;"><a href="https://carlofficehour.pythonanywhere.com" style="color: #1d0d02"><strong>Carl Office Hour</strong></h></a>
+                    <p style="font-family: 'CinzelRegular'; font-size: 18px;">Web; HTML; CSS; JavaScript; Django</p>
+                    <br>
+                    <p style="font-size: 16px;"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> A website designed for students to search for professors' office hours more easily.</p>
+                    <p style="font-size: 16px;"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Implement the server side in Django.</p>
+                    <p style="font-size: 16px;"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Students can search and update information.</p>
+                </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="project">
+                <div class="projectimg">
+                  <img src="images/2048-square.png" style="float:left; width: 45%; height: 20%; padding: 10px;margin-left: 20px;">
+
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="projectimg">
+                   <img src="images/officehour.png" style="position: absolute; float: left; width: 45%; height: 20%; padding:10px; margin-left: 20px;">
+
+                </div>
+            </div> -->
+
+
+            <div style="float:left; width:80%; padding: 10px; font-size:16px; margin-left: 5%;">
+              <p>
+                  <br>
+                  <br>
+                  I have been involved in:
+                    <br> <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
+                    Web Development (HTML, CSS, Javascript and server-side with Django);
+                    <br> <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
+                    Math Modeling and Statistical Analysis;
+                    <br> <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
+                    Game Development (Python, Java, JavaScript);
+                    <br>
+                    <Br>
+                    I am comfortable with:
+                    <br>
+                    <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
+                    Java, Python, Django, HTML, JavaScript, CSS, Bootstrap, SQL and R(elementary)
+                    <br>
+                    <br>
+                    Check out my résumé below! <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                    <br>
+                    </br>
+                      <a href="resume/Eva-Zhong-Resume-9-5-update.pdf" class="btn btn-success btn-lg" style="background-color:#572619">
+                        <span class="glyphicon glyphicon-edit"></span> Résumé
+                      </a>
+                    <br>
+                </p>
+            </div>
+
+
         </div>
 </div>
 </section>
+
+
+
 
 <div class="end"> </div>
 
