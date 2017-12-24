@@ -1,0 +1,61 @@
+New Version
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   .DS_Store
+#	new file:   Eva-Zhong-Tech-Resume-12-24-2017.pdf
+#	new file:   Gruntfile.js
+#	new file:   bower.json
+#	new file:   css/.DS_Store
+#	new file:   css/main.css
+#	new file:   css/main.css.map
+#	new file:   design1/.DS_Store
+#	modified:   images/.DS_Store
+#	deleted:    images/2048-square.png
+#	deleted:    images/2048.png
+#	deleted:    images/6108.jpg
+#	deleted:    images/6320.jpg
+#	deleted:    images/Github.png
+#	new file:   images/annie-spratt-419268.jpg
+#	deleted:    images/bg-9-full.jpg
+#	deleted:    images/github2.png
+#	deleted:    images/green.jpeg
+#	new file:   images/greg-shield-180183.jpg
+#	new file:   images/jennifer-chen-444049.jpg
+#	deleted:    images/linkedin.png
+#	deleted:    images/profile-2-circle.jpeg
+#	deleted:    images/profile-2-circle.png
+#	deleted:    images/profile-2.jpeg
+#	new file:   images/responsive-resume-design.png
+#	deleted:    images/shape.png
+#	deleted:    images/shape2.png
+#	deleted:    images/watercolor-splash-small.png
+#	deleted:    images/watercolor-splash.png
+#	deleted:    images/watercolor-splash.psd
+#	modified:   index.html
+#	new file:   package-lock.json
+#	new file:   package.json
+#	new file:   responsive-resume-mockup.sketch
+#	modified:   resume/.DS_Store
+#	new file:   scss/.DS_Store
+#	new file:   scss/base/.DS_Store
+#	new file:   scss/base/_base-styles.scss
+#	new file:   scss/base/_functions.scss
+#	new file:   scss/base/_normalize.scss
+#	new file:   scss/base/_typography.scss
+#	new file:   scss/base/_utils.scss
+#	new file:   scss/base/_variables.scss
+#	new file:   scss/main.scss
+#	new file:   scss/modules/.DS_Store
+#	new file:   scss/modules/_buttons.scss
+#	new file:   scss/modules/_code.scss
+#	new file:   scss/modules/_forms.scss
+#	new file:   scss/modules/_grid.scss
+#	new file:   scss/modules/_lists.scss
+#	new file:   scss/modules/_media-queries.scss
+#	new file:   scss/modules/_spacing.scss
+#	new file:   scss/modules/_tables.scss
+#
